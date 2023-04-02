@@ -15,7 +15,7 @@ exports[`AppUserCard Component > should render our AppUserCard 1`] = `
         <h3
           class="text-xl"
         >
-          Matthew Scholta
+          Muhammed Çelik
         </h3>
         <div
           class="font-font-monospace text-xs"

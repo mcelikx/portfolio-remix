@@ -47,7 +47,7 @@ export default function () {
               height="auto"
               loading="eager"
               onClick={onClick}
-              src="/images/assets/matt-scaled.webp"
+              src="/images/assets/muhammed-celik.jpeg"
               width="auto"
             />
           </div>
