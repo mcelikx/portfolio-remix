@@ -34,9 +34,10 @@ export const loader: LoaderFunction = async () => {
     const data = await fetchFromGraphCMS(getPosts);
     const res = await data.json();
 
+    
     const posts = res.data.posts ?? [];
-    const tagsData: EnumValue[] = res.data.__type.enumValues ?? [];
-    const tags = tagsData.map((tag: EnumValue) => tag.name).sort();
+    const tagsData: EnumValue[] = [];
+    const tags = [];
 
     if (!posts.length) {
       throw new Response(`Blog posts not found`, { status: 404 });

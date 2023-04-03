@@ -67,13 +67,13 @@ export const AppFooter = () => {
       <p className="font-font-monospace">
         Built with <span className="text-color-primary--">&hearts;</span> in{" "}
         <a
-          href="https://www.google.com/search?q=san+diego+weather"
+          href="https://www.google.com/search?q=istanbul+weather"
           rel="noreferrer"
           target="_blank"
         >
-          San Diego
+          Istanbul
         </a>
-        , CA.
+        , TR.
       </p>
     </footer>
   );

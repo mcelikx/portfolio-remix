@@ -47,7 +47,7 @@ export default function () {
             className="basis-2/3"
             post={data.technical.featured[0]}
           />
-          <BlogUpcoming className="basis-1/3" />
+          {/* <BlogUpcoming className="basis-1/3" /> */}
         </div>
 
         <div className="grid w-full gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -56,7 +56,7 @@ export default function () {
               content={post.content.html}
               date={post.date}
               heading="h2"
-              image={post.imageTemp}
+              image={post.coverImage.url}
               key={post.id}
               slug={post.slug}
               title={post.title}
@@ -89,7 +89,7 @@ export default function () {
               content={post.content.html}
               date={post.date}
               heading="h2"
-              image={post.imageTemp}
+              image={post.coverImage.url}
               key={post.id}
               slug={post.slug}
               title={post.title}

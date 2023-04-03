@@ -10,16 +10,17 @@ export const BlogFeatured = (props: BlogFeaturedProps) => {
   const { className, post } = props;
 
   return (
-    <BlogPreview
-      className={className}
-      content={post.content.html}
-      date={post.date}
-      featured={post.sticky}
-      heading="h2"
-      image={post.imageTemp}
-      key={post.slug}
-      slug={post.slug}
-      title={post.title}
-    />
+    <div></div>
+    // <BlogPreview
+    //   className={className}
+    //   content={post.content.html}
+    //   date={post.date}
+    //   featured={post.sticky}
+    //   heading="h2"
+    //   image={post.imageTemp}
+    //   key={post.slug}
+    //   slug={post.slug}
+    //   title={post.title}
+    // />
   );
 };

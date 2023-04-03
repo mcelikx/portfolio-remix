@@ -21,6 +21,7 @@ export const filterBlogPosts = (posts: Post[]) => {
     arr.push(post);
   });
 
+  
   return {
     diy,
     technical
