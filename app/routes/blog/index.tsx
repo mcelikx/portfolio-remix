@@ -35,19 +35,19 @@ export default function () {
       <section className="bg-gradient-dark-- bg-color-background-dark text-color-background">
         <AppHero
           className="mx-auto max-w-6xl py-20 md:py-40"
-          copy="Yes, another blog..."
+          copy="Soon"
           highlight="Developer ramblings"
           tag="h1"
         />
       </section>
 
-      <section className="section-full m-auto flex max-w-6xl flex-col items-center justify-center gap-20 px-4 py-20">
+      {/* <section className="section-full m-auto flex max-w-6xl flex-col items-center justify-center gap-20 px-4 py-20">
         <div className="flex flex-col gap-20 md:flex-row">
           <BlogFeatured
             className="basis-2/3"
             post={data.technical.featured[0]}
           />
-          {/* <BlogUpcoming className="basis-1/3" /> */}
+          {/* <BlogUpcoming className="basis-1/3" />
         </div>
 
         <div className="grid w-full gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -97,6 +97,7 @@ export default function () {
           ))}
         </div>
       </section>
+      */}
     </>
   );
 }

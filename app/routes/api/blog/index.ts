@@ -10,6 +10,9 @@ export interface Post {
   };
   date: string;
   id: string;
+  coverImage: {
+    url: string;
+  };
   imageTemp: string;
   slug: string;
   sticky: boolean;

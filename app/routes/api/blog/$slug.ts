@@ -14,6 +14,9 @@ export interface Post {
   images: {
     url: string;
   };
+  coverImage: {
+    url: string;
+  };
   imageTemp: string;
   intro: string;
   tags: string[];
