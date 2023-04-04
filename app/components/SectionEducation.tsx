@@ -6,13 +6,13 @@ export const SectionEducation = () => {
         <div className="mb-8 border-t border-solid border-color-border print:hidden" />
       </div>
 
-      <h3>San Francisco State University</h3>
+      <h3>Istanbul Technical University</h3>
       <h4 className="font-normal">
-        Industrial Design{" "}
-        <em className="text-sm text-color-copy-light">(incomplete)</em>
+        Civil Engineering{" "}
+        {/* <em className="text-sm text-color-copy-light">(incomplete)</em> */}
       </h4>
 
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <p className="text-sm">
           A late change of major from <b>Mechanical Engineering</b> to{" "}
           <b>Industrial Design</b> and the lack of available courses I
@@ -23,7 +23,7 @@ export const SectionEducation = () => {
 
       <ul className="my-4 ml-4 list-disc text-sm font-light">
         <li className="my-1">
-          {/* <a href="https://www.idsa.org/">IDSA:</a>  */}
+          {/* <a href="https://www.idsa.org/">IDSA:</a> 
           Industrial Designers Society of America 2004 - 2007
         </li>
         <li className="my-1">
@@ -33,7 +33,7 @@ export const SectionEducation = () => {
         <li className="my-1">
           Teaching Assistant: Drafting &amp; Sketching for Design
         </li>
-      </ul>
+      </ul> */}
     </section>
   );
 };

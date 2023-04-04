@@ -7,6 +7,18 @@ export interface Data {
 
 export const data: Data[] = [
   {
+    company: "Magento Teknik",
+    className: "h-6 md:h-12",
+    image: "/images/testimonials/magentoteknik.webp",
+    url: "https://magentoteknik.com"
+  },
+  {
+    company: "DCEY & DCEY UK",
+    className: "h-6 md:h-12",
+    image: "/images/testimonials/dcey.jpeg",
+    url: "https://dcey.co.uk/"
+  },
+  {
     company: "My Gym Assistant",
     className: "h-6 md:h-12",
     image: "/images/testimonials/mygymassistant.png",
@@ -23,17 +35,5 @@ export const data: Data[] = [
     className: "h-6 md:h-12",
     image: "/images/testimonials/cleanspa.png",
     url: "https://cleanspasport.com.tr/en/index.html"
-  },
-  {
-    company: "Magento Teknik",
-    className: "h-6 md:h-12",
-    image: "/images/testimonials/magentoteknik.webp",
-    url: "https://magentoteknik.com"
-  },
-  {
-    company: "DCEY & DCEY UK",
-    className: "h-6 md:h-12",
-    image: "/images/testimonials/dcey.jpeg",
-    url: "https://dcey.co.uk/"
   },
 ];

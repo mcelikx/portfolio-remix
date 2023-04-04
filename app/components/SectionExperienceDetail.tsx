@@ -32,7 +32,7 @@ export const SectionExperienceDetail = (
     <div className="flex flex-col gap-10 md:flex-row" key={title}>
       <div className="flex flex-col gap-2 text-base print:basis-8 md:basis-[160px]">
         <div className="flex">
-          <h3 className="flex items-center gap-2 font-bold">
+          <h3 className="w-full flex items-center justify-between gap-2 font-bold">
             <a
               className="underline-offset-4 hover:underline print:text-color-copy-dark"
               dangerouslySetInnerHTML={{ __html: company }}
@@ -48,7 +48,7 @@ export const SectionExperienceDetail = (
             {image && (
               <img
                 alt={`${company} favicon`}
-                className="h-4 w-4"
+                className="h-5 w-5"
                 height="auto"
                 loading="eager"
                 src={image}

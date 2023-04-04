@@ -53,7 +53,7 @@ export default function () {
               <a
                 className="ui-btn custom-bg-gradient flex-1 whitespace-nowrap rounded-2xl py-2 px-4 text-center text-sm font-normal text-white"
                 download={true}
-                href="/resume/Matthew_Scholta_2023.pdf"
+                href="/resume/Muhammed_Celik_Project_CV.pdf"
               >
                 Download Resume
               </a>

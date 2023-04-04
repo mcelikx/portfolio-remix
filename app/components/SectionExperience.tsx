@@ -18,7 +18,7 @@ export const SectionExperience = () => {
   return (
     <section>
       <div>
-        <h2 className="py-8 text-lg print:py-4 md:text-xl">Projects</h2>
+        <h2 className="py-8 text-lg print:py-4 md:text-xl">Main Projects</h2>
         <div className="mb-8 border-t border-solid border-color-border print:hidden" />
       </div>
 
@@ -31,12 +31,12 @@ export const SectionExperience = () => {
         ))}
       </div>
       <div className="print:hidden">
-        <button
+        {/* <button
           className="ui-btn custom-bg-gradient m-10 mx-auto block rounded-2xl border border-color-border bg-color-background-light py-2 px-4 font-font-sans-serif text-xs text-white"
           onClick={onToggleExp}
         >
           {shown === minValue ? "Show more" : "Show less"}
-        </button>
+        </button> */}
       </div>
     </section>
   );
