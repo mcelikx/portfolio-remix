@@ -7,17 +7,15 @@ export const getPost = gql`
         html
         raw
       }
-      createdAt
-      date
-      description
-      images {
+      coverImage {
         url
       }
-      imageTemp
-      intro
+      date
+      id
+      slug
+      tags
       tags
       title
-      updatedAt
     }
   }
 `;

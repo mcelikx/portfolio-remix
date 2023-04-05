@@ -71,7 +71,7 @@ export default function () {
             <div className="mb-8 border-t border-solid border-color-border print:hidden" />
             <div className="flex items-center gap-10">
               <p>
-                <span className="mr-1">👨‍💻</span> I have the skills and expertise to deliver <b>top-notch</b> solutions. I'm excited to showcase my work and connect with potential collaborators, so please explore my portfolio and don't hesitate to reach out!
+                <span className="mr-1">👨‍💻</span> I have the skills and expertise to deliver <b>top-notch</b> solutions by using React.js, React Native, VueJS and NodeJS. I'm excited to showcase my work and connect with potential collaborators, so please explore my portfolio and don't hesitate to reach out!
               </p>
             </div>
           </section>

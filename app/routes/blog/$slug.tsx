@@ -26,7 +26,7 @@ export const meta: MetaFunction = (args) => {
   return {
     ...getMetaData({
       canonical: args.parentsData?.root?.canonical,
-      description: args.data?.description,
+      description: args.data?.description || "",
       title: args.data?.title
     })
   };
@@ -62,7 +62,7 @@ export default function () {
         className="w-full border-b border-t border-color-border-dark"
         height="auto"
         loading="eager"
-        src={data.imageTemp}
+        src={data.coverImage.url}
         width="100%"
       />
 
@@ -76,7 +76,7 @@ export default function () {
           </div>
 
           {/* Content */}
-          <AppWysiwyg content={data.content.raw} />
+          <AppWysiwyg content={data?.content?.raw} />
         </div>
       </section>
     </>

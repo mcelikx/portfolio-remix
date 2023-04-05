@@ -5,7 +5,7 @@ export const MESSAGE_HIRE_ARTWORK = `Well, since you've taken the time to read t
 
 export const SITE_AUTHOR = `Muhammed Çelik`;
 export const SITE_DESCRIPTION = `The online portfolio of ${SITE_AUTHOR}, a Software Engineer!`;
-export const SITE_EMAIL_ADDRESS = `matthew.scholta@gmail.com`;
+export const SITE_EMAIL_ADDRESS = `hi@mcelik.dev`;
 export const SITE_EMAIL_LINK = `mailto:${SITE_EMAIL_ADDRESS}`;
 export const SITE_FACEBOOK = `https://www.facebook.com/rocket-cms`;
 export const SITE_INSTAGRAM = `https://www.instagram.com/rocket-cms`;

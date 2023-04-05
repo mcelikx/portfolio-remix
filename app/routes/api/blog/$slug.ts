@@ -22,6 +22,7 @@ export interface Post {
   tags: string[];
   title: string;
   updatedAt: string;
+  description: string;
 }
 
 export type LoaderData = Post;
@@ -32,7 +33,8 @@ export const loader: LoaderFunction = async (args) => {
   const data = await fetchFromGraphCMS(getPost, { slug });
   const res = await data.json();
 
-  if (!res.data.post) {
+  console.log(res?.data?.post?.content?.html);
+  if (!res.data?.post) {
     throw new Response(`Post "${slug}" not found`, { status: 404 });
   }
 
