@@ -70,7 +70,7 @@ export const experience: Experience[] = [
       SaaS Platform for Fitness and Health Centers
     </p>`,
     highlights: [
-      `Business Development`,
+      `Business development`,
       `Employee, member and reservation management panel`,
       `Interactive fitness app`,
       `IOT Products`,

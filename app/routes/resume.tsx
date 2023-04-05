@@ -71,10 +71,7 @@ export default function () {
             <div className="mb-8 border-t border-solid border-color-border print:hidden" />
             <div className="flex items-center gap-10">
               <p>
-                <span className="mr-1">👨‍💻</span> A Software Engineer whose
-                passion lies in creating <b>quality code</b> written{" "}
-                <b>for humans</b>, unlocking <b>developer productivity</b>, and
-                creating a delightful <b>user experience</b>.
+                <span className="mr-1">👨‍💻</span> I have the skills and expertise to deliver <b>top-notch</b> solutions. I'm excited to showcase my work and connect with potential collaborators, so please explore my portfolio and don't hesitate to reach out!
               </p>
             </div>
           </section>

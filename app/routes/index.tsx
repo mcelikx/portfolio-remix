@@ -55,9 +55,7 @@ export default function () {
       </div>
       <section className="border-0 border-t border-b border-solid border-color-border bg-color-background-light px-8 py-20 text-color-background-dark md:px-0">
         <blockquote className="mx-auto my-20 max-w-4xl text-2xl font-normal md:my-40 md:text-3xl">
-          Passionate about <b>quality code</b> written <b>for humans</b>,
-          unlocking <b>developer productivity</b>, and creating a delightful{" "}
-          <b>user experience</b>.
+        I specialize in building <b>cutting-edge</b> web and mobile applications using React, React Native, and Vue. With a <b>passion</b> for innovation and a commitment to <b>excellence</b>, I've successfully completed numerous projects that have exceeded client expectations and garnered high user engagement.
         </blockquote>
       </section>
       <SectionAmbitions />
