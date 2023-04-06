@@ -27,9 +27,9 @@ export const AppHeaderMobile = () => {
         <NavLink className="header-link" onClick={onClose} to="/blog">
           Blog
         </NavLink>
-        <NavLink className="header-link" onClick={onClose} to="/portfolio">
+        {/* <NavLink className="header-link" onClick={onClose} to="/portfolio">
           Portfolio
-        </NavLink>
+        </NavLink> */}
         <NavLink className="header-link" onClick={onClose} to="/resume">
           Resume
         </NavLink>
@@ -38,9 +38,9 @@ export const AppHeaderMobile = () => {
           Sandbox
         </NavLink>
         */}
-        <NavLink className="header-link" onClick={onClose} to="/uses">
+        {/* <NavLink className="header-link" onClick={onClose} to="/uses">
           Uses
-        </NavLink>
+        </NavLink> */}
       </nav>
     );
   };
