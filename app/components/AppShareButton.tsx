@@ -6,7 +6,7 @@ export const AppShareLink = () => {
 
   // Handlers
   const onClick = () => {
-    onShare("https://mattscholta.com/resume");
+    onShare("https://mcelik.dev/resume");
   };
 
   // Short Circuit
