@@ -41,7 +41,9 @@ export const loader = async (args: DataFunctionArgs) => {
   // const cookie = (await cookieTheme.parse(header)) ?? {};
   // const { theme = "light" } = cookie;
 
-  return json({ baseUrl, canonical });
+  return json({ baseUrl, canonical, ENV: {
+    VERCEL_ANALYTICS_ID: process.env.VERCEL_ANALYTICS_ID,
+  } });
 };
 
 export const meta: MetaFunction = (args) => ({
@@ -90,6 +92,12 @@ export default function App() {
         {/* Remix */}
         <ScrollRestoration />
         <Scripts />
+          {/* 👇 Write the ENV values to the window */}
+          <script
+          dangerouslySetInnerHTML={{
+            __html: `window.ENV = ${JSON.stringify(data.ENV)}`,
+          }}
+        />  
         <LiveReload />
       </body>
     </html>
