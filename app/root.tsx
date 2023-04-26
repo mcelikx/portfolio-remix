@@ -26,6 +26,12 @@ import { useIntro } from "~/hooks/useIntro";
 import { getMetaData } from "~/metadata";
 import { usePageTracking } from "~/hooks/usePageTracking";
 
+import
+ { Analytics } 
+from
+ 
+'@vercel/analytics/react'
+;
 import styles from "~/styles/index.css";
 
 export const links: LinksFunction = () => {
@@ -144,6 +150,10 @@ export function CatchBoundary() {
         </main>
 
         <AppFooter />
+                
+<
+Analytics 
+/>
 
         {/* Analytics */}
         {/* <TrackingGA id={googleAnalytics} /> */}
