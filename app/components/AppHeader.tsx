@@ -58,14 +58,14 @@ export const AppHeader = () => {
           >
             About
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className="header-link"
             onClick={onClose}
             prefetch="intent"
             to="/blog"
           >
             Blog
-          </NavLink>
+          </NavLink> */}
           {/* <NavLink
             className="header-link"
             onClick={onClose}
